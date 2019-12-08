@@ -14,6 +14,9 @@ Rails.application.routes.draw do
   get '/shows', to: 'public#shows'
   get '/contact', to: 'public#contact'
 
+  # Single Page
+  get '/epk', to: 'single_page#epk'
+
   # Temp
   get '/murder', to: 'public#murder'
 
